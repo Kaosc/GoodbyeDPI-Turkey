@@ -1,3 +1,32 @@
+# GoodbyeDPI for Turkey (Cloudflare 1.1.1.1 version tested with TT)
+
+### 1. Goodbye DPI Setting
+`-5 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 1253 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 1253`
+
+### 2. Change IPv4 to Cloudflare DNS (1.1.1.1) on Windows (Required)
+
+1. Click the **Start** button and type "Network & Internet" in the search bar.
+2. Select **Network & Internet Settings** from the search results.
+3. Scroll down and click **Change adapter settings** under the **Status** section.
+4. In the **Network Connections** window, find your active network (Wi-Fi or Ethernet).
+5. Right-click on the active network and select **Properties**.
+6. In the **Network Connection Properties** window, find and select **Internet Protocol Version 4 (TCP/IPv4)**.
+7. Click **Properties**.
+8. In the **Internet Protocol Version 4 (TCP/IPv4) Properties** window, select **Use the following DNS server addresses**.
+9. In the **Preferred DNS server** field, enter `1.1.1.1`.
+10. In the **Alternate DNS server** field, enter `1.0.0.1`.
+11. Click **OK** to save the changes.
+12. Close all open windows.
+13. To verify, open a browser and visit any website. Or, run the following command in Command Prompt:
+
+```bash
+nslookup google.com
+```
+
+<details>
+    <summary>GoodbyeDPI Original Readme</summary>
+
+
 GoodbyeDPI — Deep Packet Inspection circumvention utility
 =========================
 
@@ -177,5 +206,5 @@ Modify them according to your own needs.
 # Kudos
 
 Thanks @basil00 for [WinDivert](https://github.com/basil00/Divert). That's the main part of this program.
-
 Thanks for every [BlockCheck](https://github.com/ValdikSS/blockcheck) contributor. It would be impossible to understand DPI behaviour without this utility.
+</details>
