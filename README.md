@@ -17,11 +17,7 @@
 10. In the **Alternate DNS server** field, enter `1.0.0.1`.
 11. Click **OK** to save the changes.
 12. Close all open windows.
-13. To verify, open a browser and visit any website. Or, run the following command in Command Prompt:
-
-```bash
-nslookup google.com
-```
+13. To verify, open a browser and visit https://one.one.one.one/help/
 
 <details>
     <summary>GoodbyeDPI Original Readme</summary>
