@@ -1,6 +1,6 @@
-# GoodbyeDPI for Turkey (Cloudflare 1.1.1.1 version tested with TT)
+# GoodbyeDPI for Turkey (Cloudflare 1.1.1.1)
 
-### 1. Goodbye DPI Setting
+### 1. GoodbyeDPI Setting
 `-5 --set-ttl 5 --dns-addr 1.1.1.1 --dns-port 1253 --dnsv6-addr 2606:4700:4700::1001 --dnsv6-port 1253`
 
 ### 2. Change IPv4 to Cloudflare DNS (1.1.1.1) on Windows (Required)
