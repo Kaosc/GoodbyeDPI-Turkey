@@ -1,5 +1,7 @@
 # GoodbyeDPI for Turkey (Google, Cloudflare & AdGuard version)
 
+Go to [releases](https://github.com/Kaosc/GoodbyeDPI-Turkey/releases/tag/Release) page to download.
+
 <details>
     <summary>GoodbyeDPI Original Readme</summary>
 
